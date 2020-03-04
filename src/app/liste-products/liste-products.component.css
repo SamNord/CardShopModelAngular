@@ -1,0 +1,24 @@
+img {
+  width: 15rem;
+  height: 13rem;
+}
+
+.card-body {
+  border: solid black 1px;
+  width: 15rem !important;
+  margin-top: 0;
+  text-align: center;
+}
+
+.link {
+  color: brown;
+}
+
+@media screen and (max-width: 1200px) {
+    .resp {
+      display:flex;
+     flex-direction: column;
+     align-items: flex-start;
+     flex-wrap: nowrap;
+    }
+  }

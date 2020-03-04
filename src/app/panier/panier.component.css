@@ -1,0 +1,72 @@
+img {
+    height: 55px;
+    width: 55px;
+}
+
+.border {
+    border: solid rgb(197, 42, 42) 1px;
+    background-color: rgb(255, 213, 158);
+    color: crimson;
+    font-weight: bold;  
+}
+
+thead
+{
+    background-color: rgb(165, 163, 42);
+}
+
+tbody {
+    background-color: rgb(51, 33, 45);
+    
+}
+
+table {
+    opacity: 0.7;
+}
+
+td {
+    padding: 5px;
+    font-size: 17px;
+    color: wheat;
+}
+
+.b1 {
+    width: 70px;
+}
+
+.t2 {
+    width: 100px;
+    font-weight: bold;
+}
+
+.t3 {
+    width: 100px;   
+}
+
+.t4 {
+    width: 130px;
+}
+
+.t5 {
+    width: 150px;
+}
+
+.tp {
+    width: 130px;
+}
+
+.boutonQty {
+    border: none;
+}
+
+th {
+    color: darkblue;
+    font-size: 21px;
+}
+
+@media screen and (max-width: 1200px) {
+    table {
+     width: 70 !important;
+    }
+
+  }
