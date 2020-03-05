@@ -17,7 +17,7 @@
 <div class="row m-3 resp">
     <div class="col-2 m-3" *ngFor="let p of produits | filter : searchTerm">
         <div class="card" style="width: 15rem;">
-            <a routerLink="/product/{{p.id}}"><img class="card-img-top" src="../../{{p. image}}" alt="..."></a>
+            <a routerLink="/product/{{p.id}}"><img class="card-img-top" src="{{p. image}}" alt="..."></a>
         </div>
         <a class="link" routerLink="/product/{{p.id}}">
             <div class="card-body">

@@ -1,7 +1,7 @@
 <div class="row m-3 resp">
     <div class="col-2 m-3" *ngFor = "let c of category">
         <div class="card" style="width: 15rem;"> 
-            <a routerLink ='/liste/{{c.type}}'><img class="card-img-top" src="../../{{c. imageCat}}" alt="..."></a>
+            <a routerLink ='/liste/{{c.type}}'><img class="card-img-top" src="{{c. imageCat}}" alt="..."></a>
         </div> 
         <a class="link" routerLink ='/liste/{{c.type}}'>
         <div class="card-body">

@@ -18,7 +18,7 @@
             </thead>
             <tbody *ngFor="let p of productsCard">
                 <tr>
-                    <th scope="row" class="tp"><img src="../../{{p.img}}"></th>
+                    <th scope="row" class="tp"><img src="{{p.img}}"></th>
                     <td class="t5">{{p.nom}}</td>
                     <td class="t4">{{p.prix}}€</td>
                     <td class="t3"><button class="boutonQty" (click)="updateMoins(p.id)"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>&nbsp;{{p.qty}} &nbsp;<button class="boutonQty" (click)="updatePlus(p.id)"><i class="fa fa-plus-circle" aria-hidden="true"></i></button></td>
